@@ -17,6 +17,9 @@ double Set_algorithm::getResultPower()
     Dot mapDot[400][400];
 /*
     qDebug()<<"choice"<<this->choice<<endl;
+    qDebug()<<"cover"<<this->coverRate<<endl;
+    qDebug()<<"power"<<this->power<<endl;
+    qDebug()<<"respo"<<this->RESP0<<endl;
 */
     qDebug()<<"a: "<<this->a<<endl;
     this->d0=this->getD0(this->a,this->b,this->SINR,this->RESP0,this->power);
